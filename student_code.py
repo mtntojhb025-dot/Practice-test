@@ -320,7 +320,7 @@ def find_median(nums: list[int]):
     if len(numbers)%2 == 1:
         return numbers[len(numbers)//2]
     else:
-        return (numbers[len(number)//2]+numbers[len(numbers)//2-1])/2
+        return (numbers[len(numbers)//2]+numbers[len(numbers)//2-1])/2
     pass
 
 def reverse_string(input: str):
